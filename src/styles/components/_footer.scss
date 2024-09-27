@@ -1,0 +1,103 @@
+.footer{
+    background-color: $primaryColor;
+    // height: 400px;
+
+      .footer-wrapper{
+      
+        .flex-items{
+          margin-top: 30px;
+            
+          h5{
+            color: $whiteColor;
+          }
+
+        .details{
+           
+            
+            img{
+                width: 200px;
+               //  margin: 30px 0;
+             }
+   
+             .para{
+               color: $whiteColor;
+               max-width: 50%;
+   
+               span{
+                   color: $secondaryColor;
+               }
+             }
+        }
+
+          .font-icon{
+            color: $secondaryColor;
+            max-width: 50%;
+            
+            span{
+                color: $whiteColor;
+               
+            }
+          }
+
+          .order-list{
+            
+            li{
+                color: $secondaryColor;
+
+               span{
+                  color:$whiteColor;
+               }
+            }
+          }
+         
+        }  
+        .hr-line{
+            border: 1px solid $whiteColor;
+            height: 2px;
+            background-color: $whiteColor; 
+            // width: 90%;  
+            // margin: 20px 0; 
+        }
+
+        .follow-icon{
+            
+            p{
+                color: $whiteColor;
+
+                .facebook{
+                    color: #3C5A99;
+                    font-size: 20px;
+                    margin-left: 10px;
+                }
+                .twitter{
+                    color: #02AEEF;
+                    font-size: 20px;
+                    margin-left: 10px;
+                }
+                .instagram{
+                    color:#664AC1;
+                    font-size: 20px;
+                    margin-left: 10px;
+                }
+                .google{
+                    color: #EA4235;
+                    font-size: 20px;
+                    margin-left: 10px;
+                }
+                .pinterest{
+                    color: #3C5A99;
+                    font-size: 20px;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .payment-icon{
+            
+            p{
+                color: $whiteColor;
+            }
+        }
+      }
+       
+    }  

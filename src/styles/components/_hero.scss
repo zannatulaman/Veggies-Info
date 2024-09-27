@@ -1,0 +1,41 @@
+// @import "./variable";
+
+
+
+// @mixin responsive($mobile-sm) {
+//     @media screen and (max-width: $mobile-sm) {
+//         @content;
+//     }
+// }
+
+
+
+.hero{
+    background-image: url('/images/hero-banner.png');
+    height: 500px;
+    background-size: cover;
+    position: relative;
+
+     
+   .hero-wrapper{
+
+       .details{
+        position: absolute;
+        top: 40%;
+
+        @include responsive($mobile-sm){
+            position: absolute;
+            top: 20%;
+
+        }
+
+        p {
+            max-width: 50%;
+        }
+
+       }
+   } 
+}
+
+
+

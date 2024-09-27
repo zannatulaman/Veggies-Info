@@ -1,0 +1,23 @@
+.product{
+
+    
+    .product-items{
+        background-color:$grayColor;
+        border-radius: 20px;
+        padding: 20px 40px;
+        margin: 20px;
+
+       
+        img{
+            background-color: $lightColor;
+            border-radius: 20px;
+            padding: 20px;
+            height: 200px;
+            width: 200px;
+        }
+    }
+
+    
+
+   
+}

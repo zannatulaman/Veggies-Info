@@ -1,0 +1,15 @@
+.info{
+    background-image: url("/images/landing/info.png");
+    height: 500px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+
+    @include responsive($mobile-sm) {
+        // background-size: contain;
+        // background-repeat: no-repeat;
+        height: 400px;
+        
+      }
+}

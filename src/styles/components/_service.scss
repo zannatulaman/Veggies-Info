@@ -1,0 +1,27 @@
+.service-items{
+    background-color:$grayColor;
+    border-radius: 50%;
+    // padding: 20px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    
+    .details{
+        margin-top: 15px;
+
+        img{
+            width: 30px;
+        }
+    
+        p{
+            font-size: 10px;
+            margin: 0;
+            padding: 0;
+        }
+
+    }
+
+    
+
+
+}

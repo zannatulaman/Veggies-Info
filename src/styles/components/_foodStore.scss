@@ -1,0 +1,41 @@
+.flex-left{
+
+    margin: 0;
+    padding: 0;
+
+    .foodStore-items{
+
+        img{
+            height: 200px;
+            width: 300px;
+            border-radius: 20px;
+        }
+
+        p{
+            max-width: 50%;
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+}
+
+.flex-right{
+
+    p{
+        max-width: 50%;
+       
+    }
+    
+    .price-tag{
+        color:$secondaryColor;
+       
+    }
+
+   img{
+      height: 200px;
+      width: 300px;
+   }
+
+}
+
+

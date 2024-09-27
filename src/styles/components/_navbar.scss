@@ -1,0 +1,51 @@
+
+// .navbar-nav {
+//   .nav-item {
+//     padding: 10px;
+
+//     @mixin responsive($mobile-sm) {
+//      padding: 5px;
+//   }
+
+//     .nav-link {
+//       color: $whiteColor !important;
+//       font-size: 15px;
+
+//       @mixin responsive($mobile-sm) {
+//         color: $whiteColor !important;
+//         font-size: 10px;
+//      }
+
+//       &:hover {
+//         color: $secondaryColor !important;
+//       }
+//     }
+//   }
+// }
+
+
+
+
+.navbar-nav {
+  .nav-item {
+    padding: 10px;
+
+    @include responsive($mobile-sm) {
+      padding: 5px;
+    }
+
+    .nav-link {
+      color: $whiteColor !important;
+      font-size: 15px;
+
+      @include responsive(600px) {
+        font-size: 10px;
+      }
+
+      &:hover {
+        color: $secondaryColor !important;
+      }
+    }
+  }
+}
+
